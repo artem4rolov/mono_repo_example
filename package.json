@@ -1,0 +1,11 @@
+{
+  "name": "mono_repo_example",
+  "version": "1.0.0",
+  "scripts": {
+    // можно параллельно запускать микрофронты, например, с помощью concurently npm
+  },
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ]
+}
